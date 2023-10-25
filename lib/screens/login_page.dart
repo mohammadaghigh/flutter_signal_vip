@@ -17,18 +17,9 @@ class LoginPage extends StatelessWidget {
                 SizedBox(
                   height: 10.0,
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'VIP سیگنال ',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 20.0),
-                    ),
-                    SizedBox(
-                      width: 5.0,
-                    ),
-                  ],
+                Text(
+                  'VIP سیگنال ',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 Image(
                   image: AssetImage('images/w.png'),

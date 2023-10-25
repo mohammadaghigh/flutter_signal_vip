@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:flutter_signal_vip/Widget/appbar_widget.dart";
 import "package:flutter_signal_vip/Widget/post_widget.dart";
 
 class BlogScreen extends StatelessWidget {
@@ -30,13 +31,7 @@ class BlogScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0,
-        foregroundColor: Colors.black,
-        title: Text('vip اخبار و سیگنال های'),
-        centerTitle: true,
-      ),
+      appBar: getAppBarWdiget(title: 'vip اخبار و سیگنال های'),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
